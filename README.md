@@ -1,5 +1,7 @@
-Introduction
-============
+# Stratio Crossdata Spark 2
+
+## Introduction
+
 [![GitterIL]( https://badges.gitter.im/Stratio/Crossdata.svg?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)](https://gitter.im/Stratio/Crossdata) [![Coverage Status](https://coveralls.io/repos/github/Stratio/Crossdata/badge.svg?branch=master)](https://coveralls.io/github/Stratio/Crossdata?branch=master)
 
 Crossdata is a distributed framework and a fast and general-purpose computing system powered by Apache Spark. It unifies the interaction with different sources supporting multiple datastore technologies thanks to its generic architecture and a custom SQL-like language using SparkSQL as the core of the project. In addition, Crossdata supports batch and streaming processing so that you can mix data from both input technologies. Supporting multiple architectures imposes two main challenges: how to normalize the access to the datastores, and how to cope with datastore limitations. Crossdata provides connectors which can access to multiple datastores natively, speeding up the queries by avoiding the overhead and the block of resources of the Spark Cluster when possible. We offer a shell, Java and Scala APIs, JDBC and ODBC for BI tools.
@@ -40,33 +42,14 @@ Main Crossdata's advantages over other options:
 - Insert with values queries as in typical SQL.
 - Service Discovery
 
-===================
-Spark Compatibility
-===================
+## Spark Compatibility
 
 | Crossdata Version | Spark Version |
 |-------------------|:--------------|
-| 1.7.X	            | 1.6.X         |
-| 1.6.X	            | 1.6.X         |
-| 1.5.X	            | 1.6.X         |
-| 1.4.X	            | 1.6.X         |
-| 1.3.X	            | 1.6.X         |
-| 1.2.X             |	1.5.X         |
-| 1.1.X             |	1.5.X         |
-| 1.0.X             |	1.5.X         |
+| 2.0.x	            | 2.1.X         |
 
 
-=============
-Documentation
-=============
-
-For a complete documentation, please, visit https://stratio.atlassian.net/wiki/display/PLATFORM/STRATIO+CROSSDATA.
-
-===========
-Get support
-===========
-
-You can send us issues in https://crossdata.atlassian.net.
+## Get support
 
 You can also find help in https://groups.google.com/forum/#!forum/crossdata-users.
 
@@ -74,16 +57,11 @@ There is also a gitter channel available: https://gitter.im/Stratio/Crossdata.
 
 Alternatively, you can try to reach us at gitter or our IRC channel [#stratio-crossdata](http://webchat.freenode.net/?channels=#stratio-crossdata). Feel free to ask, if we are available we'll try to help you.
 
-
-=============
-Release notes
-=============
+## Release notes
 
 Features and changes are detailed in the [changelog](CHANGELOG.md).
 
-=======
-License
-=======
+## License
 
 Stratio Crossdata is licensed as [Apache2](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
